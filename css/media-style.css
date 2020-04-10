@@ -1,0 +1,484 @@
+@media only screen and (max-width: 768px){
+
+    body{
+        /*position: relative;*/
+        background-color: #696969;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+
+    .br{
+        display: block;
+        margin-bottom: 70vh;
+    }
+
+    #home{
+        width: 100%;
+        height: 100vh;
+    }
+
+    .triangle-right {
+        display: block;
+        width: 0;
+        height: 0;
+        border-top: 10px solid transparent;
+        border-left: 20px solid #ffa500;
+        border-bottom: 10px solid transparent;
+        animation: ind 1s 0.3s ease-in-out infinite;
+    }
+
+    @keyframes ind {
+        0%{
+            border-top: 10px solid transparent;
+            border-left: 20px solid #ffa500;
+            border-bottom: 10px solid transparent;
+        }
+
+        100%{
+            border-top: 10px solid transparent;
+            border-left: 20px solid #228b22;
+            border-bottom: 10px solid transparent;
+        }
+        
+    }
+
+    .page-links{
+        display: none;
+    }
+
+    nav .menu-icon{
+        display: block;
+    }
+
+    nav .menu-btn:checked ~ .page-links-media{
+    display: block;
+    }
+
+
+
+    .content{
+        margin: 20vh 0;
+        width: 100%;
+    }
+
+        #driver, #job, #school{
+        background-color: #999999;
+        height: 100vh;
+        margin-top: ;
+        width: 100%;
+        /*display: none;*/
+    }
+
+    #showcase-cont{
+        width: 100%;
+        display: block;
+        height: fit-content;
+    }
+
+
+
+    .balls{
+        display: none;
+    }
+
+    #showcase{
+        width: 100%;
+        height: 1200px;
+        margin: 0 0 30vh 0;
+        border-radius: 0;
+        display: block;
+    }
+    
+    .slides{
+    
+        margin: 0 0 30vh 0;
+        width: 100%;
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+        animation: none;
+        /*animation-name: slide;
+        animation-duration: 20s;
+        animation-duration: normal;
+        animation-timing-function: ease;
+        animation-iteration-count: infinite;*/
+        
+    }
+
+    /*
+    .slide{
+        width: 100%;
+        height: 100%;
+        transition: 0.6s;
+    }*/
+
+    .slide-head{
+        height: 15%;
+        background-color: #454545;
+        border-bottom: 2px solid #228b22;
+    }
+
+    .slide-head p{
+        text-align: center;
+        color: #ffa500;
+        padding-top: 12px;
+        font-size: 18px;
+        margin: 5px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+
+    .slide img{
+        
+        margin: 0;
+        width: 100%;
+        height: 250px;
+    }
+    
+    /*
+    @keyframes move{
+
+        0%{
+            transform: translateX(0);
+        }
+
+        12.5%{
+            transform: translateX(0);
+        }
+
+        25%{
+            transform: translateX(-100%);
+        }
+
+        37.5%{
+            transform: translateX(-100%);
+        }
+
+        50%{
+            transform: translateX(-200%);
+        }
+
+        62.5%{
+            transform: translateX(-200%);
+        }
+
+        75%{
+            transform: translateX(-300%);
+        }
+
+        87.5%{
+            transform: translateX(-300%);
+        }
+
+        100%{
+            transform: translateX(-400%);
+        }
+
+        100%{
+            transform: translateX(-2240px);
+        }
+    }*/
+
+    #contact{
+        width: 100%;
+        margin-top: 30vh;
+        display: block;
+    }
+
+    .cont1{
+        width: 100%;
+        margin: 0;
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 0;
+    }
+
+    .cont2{
+        width: 100%;
+        margin: 0;
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 0;
+    }
+
+    .message-btn{
+        left: 42%;
+    }
+
+    .social{
+        margin-left: 30%;
+    }
+
+    .fb{
+        animation: slide 4s ease-in-out infinite;
+        animation-delay: 0.3s;
+        transition: ease;
+    }
+
+    .in{
+        animation: slide 4s ease-in-out infinite;
+        animation-delay: 0.9s;
+        transition: ease;
+    }
+
+    .wa{
+        animation: slide 4s ease-in-out infinite;
+        animation-delay: 1.5s;
+        transition: ease;
+    }
+
+    @keyframes slide{
+        0%{
+            transform: translateY(0px);
+        }
+
+        25%{
+            transform: translateY(4px);
+        }
+
+        50%{
+            transform: translateY(8px);
+        }
+
+        75%{
+            transform: translateY(4px);
+        }
+
+        100%{
+            transform: translateY(0px);
+        }
+    }
+
+}
+
+
+
+
+@media screen and (max-width: 560px){
+    body{
+        /*position: relative;*/
+        background-color: #696969;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+
+    .br{
+        display: block;
+        margin-bottom: 100vh;
+    }
+
+    #home{
+        width: 100%;
+        height: 100vh;
+    }
+
+    .page-links{
+        display: none;
+    }
+
+    nav .menu-icon{
+        display: block;
+    }
+
+    nav .menu-btn:checked ~ .page-links-media{
+    display: block;
+    }
+
+
+
+    .content{
+        margin: 0;
+        width: 100%;
+    }
+
+        #driver, #job, #school{
+        background-color: #999999;
+        height: 100vh;
+        margin-top: 30vh;
+        width: 100%;
+        /*display: none;*/
+    }
+
+    #showcase-cont{
+        margin-bottom: 130vh;
+        width: 100%;
+        display: block;
+        height: fit-content;
+    }
+
+
+
+    .balls{
+        display: none;
+    }
+
+    #showcase{
+        width: 100%;
+        height: 1200px;
+        margin: 0 0 10vh 0;
+        border-radius: 0;
+        display: block;
+        overflow: visible;
+    }
+    
+    .slides{
+    
+        margin: 0;
+        width: 100%;
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+        animation: none;
+        /*animation-name: slide;
+        animation-duration: 20s;
+        animation-duration: normal;
+        animation-timing-function: ease;
+        animation-iteration-count: infinite;*/
+        
+    }
+
+    /*
+    .slide{
+        width: 100%;
+        height: 100%;
+        transition: 0.6s;
+    }*/
+
+    .slide-head{
+        width: 95%;
+        height: 25%;
+        margin-left: -8%;
+        background-color: #454545;
+        border-bottom: 2px solid #228b22;
+    }
+
+    .slide-head p{
+        text-align: center;
+        color: #ffa500;
+        margin: 0 10% !important;
+        padding-top: 12px;
+        font-size: 18px;
+        margin: 5px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+
+    .slide img{
+        
+        margin: 0;
+        width: 95%;
+        height: 250px;
+        margin-left: -10%;
+    }
+    
+    /*
+    @keyframes move{
+
+        0%{
+            transform: translateX(0);
+        }
+
+        12.5%{
+            transform: translateX(0);
+        }
+
+        25%{
+            transform: translateX(-100%);
+        }
+
+        37.5%{
+            transform: translateX(-100%);
+        }
+
+        50%{
+            transform: translateX(-200%);
+        }
+
+        62.5%{
+            transform: translateX(-200%);
+        }
+
+        75%{
+            transform: translateX(-300%);
+        }
+
+        87.5%{
+            transform: translateX(-300%);
+        }
+
+        100%{
+            transform: translateX(-400%);
+        }
+
+        100%{
+            transform: translateX(-2240px);
+        }
+    }*/
+
+    #contact{
+        width: 100%;
+        margin: 0 0 50vh 0;
+        display: block;
+    }
+
+    .cont1{
+        width: 100%;
+        margin: 0;
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 0;
+    }
+
+    .cont2{
+        width: 100%;
+        margin: 0;
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 0;
+    }
+
+    .message-btn{
+        left: 42%;
+    }
+
+    .social{
+        margin-left: 30%;
+    }
+
+    .fb{
+        animation: slide 4s ease-in-out infinite;
+        animation-delay: 0.3s;
+        transition: ease;
+    }
+
+    .in{
+        animation: slide 4s ease-in-out infinite;
+        animation-delay: 0.9s;
+        transition: ease;
+    }
+
+    .wa{
+        animation: slide 4s ease-in-out infinite;
+        animation-delay: 1.5s;
+        transition: ease;
+    }
+
+    @keyframes slide{
+        0%{
+            transform: translateY(0px);
+        }
+
+        25%{
+            transform: translateY(4px);
+        }
+
+        50%{
+            transform: translateY(8px);
+        }
+
+        75%{
+            transform: translateY(4px);
+        }
+
+        100%{
+            transform: translateY(0px);
+        }
+    }
+
+}
